@@ -15,6 +15,7 @@
   --title-font: #{$title-font};
   --placeholder: #{$placeholder};
   --boxShadowForMainContainer: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --boxShadowForCard: #0000003d 0px 3px 8px;
 }
 
 html,
@@ -25,18 +26,11 @@ body {
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('../src/pages/fonts/poppins-regular-webfont.woff2') format('woff2');
+  font-family: "Poppins";
+  src: url("../src/pages/fonts/poppins-regular-webfont.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
-@font-face {
-  font-family: 'Poppins';
-  src: url('../src/pages/fonts/poppins-regular-webfont.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-}
-
 
 //     color: var(--text);
 //     font-size: 1.125rem;
